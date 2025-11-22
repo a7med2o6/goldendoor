@@ -85,13 +85,13 @@ body {
   left: 30%;
   border-radius: var(--border-radius);
   overflow: hidden;
-  transform: translate(0%, 0%);
+  transform: translate(0, 10%);
   box-shadow: var(--shadow);
 }
 @media (max-width: 450px) {
   .contactus .profile {
-    top: 17%;
-    left: 30%;
+    top: 15%;
+    left: 25%;
   }
   .contactus .contacus-info .heading {
     margin-top: 6rem;
@@ -99,7 +99,7 @@ body {
 }
 .contactus .contacus-info {
   padding: 2rem 2rem;
-  margin-top: 6rem;
+  margin-top: 10rem;
   text-align: center;
   display: flex;
   flex-direction: column;
